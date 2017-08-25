@@ -1,0 +1,12 @@
+server:
+  port: 8088
+spring:
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/dbtest?characterEncoding=utf-8
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password:
+  jpa:
+    hibernate:
+      ddl-auto: create
+    show-sql: true
